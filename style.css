@@ -1,31 +1,34 @@
 body{
-  background-color:rgb(245, 245, 245) ;
-  color: black;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
-#favoriteColor{
-  color: indigo;
-  font-size: 20px;
+.delicious{
+  font-family: 'Yellowtail', cursive;
 }
 
-.myClass{
-  color: blue;
-  font-size: 30px;
+nav{
+  float: right;
+}
+
+.chocopizza{
+  margin:auto;
+}
+
+.print{
+  float: right;
+}
+
+.list{
+  z-index: 1;
+}
+
+.ingredientslist1{
+  z-index: 5;
+}
+
+.ingredientslist2{
+  z-index: 5;
 }
 
 
-img {
-  height: 250px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-header {
-  color: yellow;
-  background-color: red;
-  font-size:60px;
-  display: block;
-  text-align: center;
-  
-}
